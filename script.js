@@ -30,7 +30,7 @@ function minmax (e, f) {
 minmax(6, 8);
 
 //Forth
-/*console.log('Forth');
+console.log('Forth');
 let g = +prompt('Введите первое число массива');
 let h = +prompt('Введите последнее число массива');
 let arrayForth = [];
@@ -41,11 +41,26 @@ function arrayF () {
     return arrayForth[g];
 }
 arrayF();
-console.log(arrayForth);*/
+console.log(arrayForth);
 
 //Fifth
 console.log('Fifth');
 function isEven(j) {
     return j % 2 == 0;
-    }
+}
 console.log(isEven(6));
+
+//Sixth
+console.log('Sixth');
+let arrSixthEven = [];
+let arrSixth = arrayForth;
+
+for (let i = 0; i < arrSixth.length; i++) {
+    if (isEven(arrSixth[i])) {
+      arrSixthEven.push(arrSixth[i]);
+    }
+}
+console.log(arrSixthEven);
+
+
+
