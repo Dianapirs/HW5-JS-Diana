@@ -29,3 +29,17 @@ function minmax (e, f) {
 }
 minmax(6, 8);
 
+//Forth
+console.log('Forth');
+let g = +prompt('Введите первое число массива');
+let h = +prompt('Введите последнее число массива');
+let arrayForth = [];
+function arrayF () {
+    for(g; g <= h; g++) {
+        arrayForth.push(g);
+    }
+    return arrayForth[g];
+}
+arrayF();
+console.log(arrayForth);
+
