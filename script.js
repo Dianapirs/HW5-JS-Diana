@@ -75,3 +75,21 @@ function pyramid(k){
 }
   pyramid(9);
 
+//Tenth
+console.log('Tenth');
+let numberTenth = String(259);
+let sumTenth = 0;
+function sumToNine (n) {
+  
+  arrTenth = n.split('');
+  console.log(arrTenth);
+  for(let p = 0; p < arrTenth.length; p++) {
+    sumTenth = sumTenth + Number(arrTenth[p]);
+    if(sumTenth > 9){
+      sumToNine(String(sumTenth));
+    }
+  }
+  console.log(sumTenth);
+}
+sumToNine(numberTenth);
+
