@@ -62,5 +62,16 @@ for (let i = 0; i < arrSixth.length; i++) {
 }
 console.log(arrSixthEven);
 
+//Seventh
+document.write('Seventh<br>');
 
+function pyramid(k){
+    for(let l = 1; l <= k; l++){
+      for(let m = 1; m <= l; m++){
+        document.write(l);
+      }
+      document.write('<br>');
+    }
+}
+  pyramid(9);
 
